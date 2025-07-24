@@ -1,0 +1,17 @@
+[project]
+name = "penguins-classifier"
+version = "0.1.0"
+description = "Penguin species prediction using XGBoost and FastAPI"
+authors = [{ name = "Josmymol Joseph", email = "josmymol.joseph@dcmail.ca" }]
+requires-python = ">=3.9"
+
+[tool.uv]
+dependencies = [
+    "xgboost",
+    "seaborn",
+    "scikit-learn",
+    "pandas",
+    "fastapi",
+    "pydantic",
+    "uvicorn[standard]"
+]
